@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp" >
+
+        <ImageView
+            android:id="@+id/tabline"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#2196f3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="#c5cae9"
+        >
+
+        <LinearLayout
+            android:id="@+id/LL_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_news_img"
+                android:scaleType="centerInside"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/news" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="最新资讯"
+                android:gravity="center"
+                android:textColor="#339900"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_decect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_schoolAndMaj_img"
+                android:scaleType="centerInside"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/school" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="院校与专业"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_connect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_score_img"
+                android:scaleType="centerInside"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/scores" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分数线/批次线"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_other"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tab_other_img"
+                android:scaleType="centerInside"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#ffffff"
+                android:clickable="false"
+                android:src="@drawable/others" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他功能"
+                android:gravity="center"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

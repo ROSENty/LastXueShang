@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xueshang">
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="学尚高考" />
+        <activity
+            android:name=".FractionQuery"
+            android:label="批次线查询" />
+        <activity
+            android:name=".CharacterTest"
+            android:label="性格测试" />
+        <activity
+            android:name=".CollegeChoosing"
+            android:label="学校分数线查询" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="学尚高考">
+
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".College"
+            android:label="院校信息查询" />
+        <activity
+            android:name=".ProfessionQuery"
+            android:label="专业信息查询" />
+        <activity android:name=".Medium" />
+        <activity android:name=".Level_medium" />
+        <activity android:name=".PolicyInfo" />
+        <activity android:name=".Specific_info" />
+        <activity android:name=".Chat" />
+        <activity android:name=".LoadingPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

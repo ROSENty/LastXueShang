@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/specific_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:hint="标题"
+        />
+
+    <TextView
+        android:id="@+id/specific_info_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:hint="时间"
+        />
+
+    <TextView
+        android:id="@+id/specific_info_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:hint="作者"
+        />
+
+    <TextView
+        android:id="@+id/specific_info_littleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:hint="小标题"
+        />
+
+    <TextView
+        android:id="@+id/specific_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        android:hint="正文"
+        />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="SchoolData"></dbname>
+
+    <version value="6"></version>
+
+    <list>
+        <mapping class="com.example.xueshang.School"></mapping>
+        <mapping class="com.example.xueshang.Profession"></mapping>
+        <mapping class="com.example.xueshang.CityUniv"></mapping>
+        <mapping class="com.example.xueshang.Introduction"></mapping>
+        <mapping class="com.example.xueshang.Category"></mapping>
+        <mapping class="com.example.xueshang.Major"></mapping>
+        <mapping class="com.example.xueshang.Level_2"></mapping>
+        <mapping class="com.example.xueshang.Level_3"></mapping>
+    </list>
+</litepal>

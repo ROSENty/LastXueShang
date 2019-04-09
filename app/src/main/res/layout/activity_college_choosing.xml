@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/college_choosing_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请在这输入你想要查询的学校"
+        android:maxLines="2"/>
+
+    <Button
+        android:id="@+id/college_choosing_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/college_choosing_schoolType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学校类型"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/college_choosing_schoolName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学校名称"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/college_choosing_schoolYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="年份"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/college_choosing_schoolHighest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="最低分"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/college_choosing_schoolLowest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="最高分"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/college_choosing_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
